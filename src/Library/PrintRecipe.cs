@@ -5,7 +5,7 @@ using Full_GRASP_And_SOLID.Library;
 
 namespace Full_GRASP_And_SOLID
 {
-    public class ConsolePrinter
+    public class ConsolePrinter // hicimos esta clase a parte por el  patrón srp, que dice que cada clase debe tener una responsabilidad única y hacerla bien por eso creamos un nueva clase exclusivamente para imprimir los datos de la receta
     {
         public static void PrintRecipe(Recipe recipe)
 {
